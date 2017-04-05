@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cpf.view.banner"
+     >
+
+
+    <application
+        android:allowBackup="true"
+         >
+    </application>
+
+</manifest>
