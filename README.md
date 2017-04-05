@@ -1,5 +1,7 @@
 # Imagecache-bannerview
-安卓图片缓存和bannerview结合
+## 安卓图片缓存和bannerview结合
+email: 1659290725@qq.com<br>
+author: chenpengfei
 
 ## 一、引导页使用
 ``` java
@@ -121,3 +123,10 @@
    ImageCache.getInstance(getContext()).setImageUrl(imageView, url);
    
   ```
+## 四、滑动动画
+   ``` java
+    //提供三种额外的动画
+        recycleView.setRecycleViewAnim(RecycleViewAnim.DepthPageTransformer);
+        recycleView.setRecycleViewAnim(RecycleViewAnim.ZoomOutPageTransformer);
+        recycleView.setRecycleViewAnim(RecycleViewAnim.RotateDownPageTransformer);
+   ```
